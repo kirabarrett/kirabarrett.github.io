@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@500&display=swap');
+
+nav {
+	background-color: rgba(255, 150, 150, .25);
+	float: left;
+	font-size: 1.5em;
+	font-family: : 'Merriweather', serif;
+	padding: 1em 1em;
+	width: 100%;
+}
+
+nav a {
+	padding: 0 .5em;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	display: inline-block;
+	background-color: rgba(255, 150, 150, .75);
+}
+
+.clearfix :after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+header {
+	/*background: url("../images/cityscape.jpg");
+	background-size: cover;*/
+	background-color: rgba(255, 84, 84, .75);
+	clear: both;
+	height: 700px;
+	width: 100%;
+	display: block;
+}
+
+.header_box {
+	clear: both;
+	height: 33.3%;
+	display: block;
+	clear: both;
+}
+
+#name{
+	clear: both;
+	display: inline-block;
+	
+	padding: 1em;
+	outline: 1em solid white;
+	width: 40%;
+	margin-left: 30%;
+
+	text-align: center;
+
+}
+
+body {
+	
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	color: white;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 2em;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	color: white;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	line-height: 1.5em;
+}
+
+.one {
+	float: left;
+	height: 700px;
+	width: 100%;
+}
+
+.example_site {
+	display: inline-block;
+	height: 800px;
+	width: 33%;
+}
+
+.example_site_image img {
+	height: 30%;
+	width: 90%;
+	align-content: center;
+	margin: 5%;
+	outline: 1em solid white;
+}
+
+figcaption {
+	height: 50%;
+	width: 90%;
+	margin: 5%;
+	background-color: rgba(255, 84, 84, .50);
+}
+
+.figcaption_text {
+	width: 90%;
+	margin: 5%;
+}
+
+
+#site_one {
+	background-color: rgba(255, 150, 150, .25);
+
+}
+
+#site_two {
+	background-color: rgba(255, 150, 150, .25);
+
+}
+
+#site_three {
+	background-color: rgba(255, 150, 150, .25);
+
+}
+
+#two {
+	background-color: rgba(255, 84, 84, .75);
+	clear: both;
+	height: 700px;
+	width: 100%;
+	display: block;
+}
+
+aside {
+	background-color: rgba(243, 255, 184, .25);
+	display: inline;
+	float: left;
+	width: 30%;
+	margin: 5%;
+	height: 90%;
+
+}
+
+main {
+	background-color: rgba(184, 218, 255, .25);
+	display: inline;
+	float: left;
+	width: 55%;
+	margin: 5% 5% 5% 0;
+	height: 90%;
+}
+
+main figure img {
+	height: 90%;
+	width: 90%;
+	align-content: center;
+	margin: 5%;
+	outline: 1em solid white;
+}
+
+@media screen only and (max-width: 797px) {
+	.one {
+		float: none;
+	}
+	.example-site {
+		display: block;
+	}
+}
